@@ -1,0 +1,125 @@
+body{
+    background-color: aquamarine;
+    color: black;
+    font-family: sans-serif;
+}
+#project{
+    border: 5px solid red;
+}
+#navbar{
+    height: 70px;
+    background-color: black;
+    margin: 5px;
+}
+#main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+#main{
+    height: 500px;
+    background-image: url(https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/308101796_470455718444845_6799287394573922162_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=v5B4Dy8Q0mkAX-qFYUQ&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfAn2t2U8ES2ApCVKAAvcCQ7WIxIDnCaVIdH6qt9GDKcjw&oe=63FEB7CA);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    position: relative;
+    
+   
+    
+    margin: 5px;
+    max-width:700px;
+    flex: 1;
+}
+
+#main:hover{
+    max-width:800px;
+    height: 600px;
+    transition-duration: 0.5s;
+}
+#adds{
+    height: 200px;
+    background-color:blue;
+    margin: 5px;
+    max-width:500px;
+    flex: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Gcoeara_logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    position: relative;
+
+    
+}
+#adds:hover{
+    max-width:550px;
+    height: 250px;
+    transition-duration: 0.5s;
+}
+@media screen and (max-width: 800px) {
+    #main {
+      flex: 100%;
+      max-width: 800px;
+    }
+    #adds {
+      flex: 100%;
+      max-width: 800px;
+    }
+}
+
+.content{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    height: 500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+
+/* 
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: content-box;
+}
+        
+.child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+} */
+
+
+
+
+
+
+#footer{
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    border: 10px solid white;
+}
